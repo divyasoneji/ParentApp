@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TimerOptions">
+
+    <TextView
+        android:id="@+id/timer_options_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/moon_bold_font"
+        android:text="@string/timer_options_title"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/timer_options_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/children_list_shape"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_options_title" />
+
+    <EditText
+        android:id="@+id/custom_minutes_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="@font/moon_bold_font"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/timer_options_radio_group"
+        app:layout_constraintStart_toStartOf="@+id/timer_options_radio_group"
+        app:layout_constraintTop_toBottomOf="@+id/timer_options_radio_group" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/timer_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_orange"
+        android:fontFamily="@font/moon_bold_font"
+        android:padding="16dp"
+        android:text="@string/start_button_text"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/timer_options_title"
+        app:layout_constraintTop_toBottomOf="@+id/custom_minutes_edit"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn_timerOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_red"
+        android:fontFamily="@font/moon_bold_font"
+        android:padding="16dp"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/timer_options_title"
+        app:layout_constraintTop_toBottomOf="@+id/custom_minutes_edit"
+        app:layout_constraintVertical_bias="0.501" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

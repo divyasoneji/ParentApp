@@ -1,0 +1,1 @@
+Restarting the AVD is recommended before trying out the state machine

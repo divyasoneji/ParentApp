@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">ParentApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_menu_text">Main Menu</string>
+    <string name="my_children">My Children</string>
+    <string name="help_text">Help</string>
+
+    <!-- General strings -->
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="name">name</string>
+    <string name="date">date</string>
+
+    <!-- Child strings -->
+    <string name="error_validate_name">Enter a valid name for the child</string>
+    <string name="add_child">Add new child</string>
+    <string name="error_empty_name">Your child must have a name!</string>
+    <string name="add_button_title">Enter or edit name:</string>
+    <string name="name_hint">Enter name here</string>
+    <string name="age_hint">Enter age here</string>
+    <string name="start_button_text">Start!</string>
+    <string name="image_hint">Tap image to edit</string>
+    <string name="add_image_hint">Tap to add new image</string>
+    <string name="no_child_created_yet">No Child\n Created Yet</string>
+
+    <!-- Main menu strings -->
+    <string name="good_morning">Good Morning!</string>
+    <string name="good_afternoon">Good Afternoon!</string>
+    <string name="good_evening">Good Evening!</string>
+
+    <!-- Coin flip activity strings -->
+    <string name="flip_a_coin">Flip Coin!</string>
+    <string name="coin_flip_current_child_prompt">Hi %1$s!\nIt\'s your turn to\nflip the coin!</string>
+    <string name="coin_flip_no_child_prompt">Flip the coin!</string>
+    <string name="change_child">Change Child</string>
+    <string name="heads">Heads</string>
+    <string name="tails">Tails</string>
+    <string name="history">History</string>
+    <string name="no_child">No Child</string>
+
+    <!-- Flip history activity strings -->
+    <string name="coin_flip_result">Flip: %1$s</string>
+    <string name="coin_flip_picked">Picked: %1$s</string>
+    <string name="coin_flip_time">Time: %1$s</string>
+    <string name="clear">Clear</string>
+    <string name="confirm_reset">Are you sure  you want to clear the flip history?</string>
+    <string name="reset">Reset</string>
+    <string name="error_no_history">There is no coin flip history to clear.</string>
+    <string name="no_history_of_coin_flip">No history of\ncoin flip</string>
+
+    <!-- Timer strings -->
+    <string name="new_timer">New Timer</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="timer_stop_message">TIMES UP! Tap to stop the alarm</string>
+    <string name="custom_radio_option_string">Custom</string>
+    <string name="error_negative_input">Cannot start! Please enter a number greater than 0.</string>
+    <string name="timer">Timer</string>
+    <string name="minutes_text">00 : 00</string>
+    <string name="timeout_timer_title">Timeout Timer</string>
+    <string name="pause_button_text">Pause</string>
+    <string name="play_button_text">Play</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="timer_options_button_text">Timer Options</string>
+    <string name="what_do_you_want_to_do_today">What do you want to do today?</string>
+    <string name="pick_heads_or_tail">Pick heads or tails!</string>
+    <string name="time_label_format">%02d : %02d</string>
+    <string name="custom">Custom</string>
+    <string name="time_notification">TIMES UP! Tap to stop the alarm</string>
+    <string name="error_select_time">Cannot start! Please select a time</string>
+    <string name="error_enter_time">Cannot start! Please enter a time</string>
+    <string name="error_time_negative">Cannot start! Please enter a number greater than 0</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="timer_options_title">Pick a Time!</string>
+
+    <!-- Help/About us strings -->
+    <string name="about">ABOUT</string>
+    <string name="team_nitrogen">Team NITROGEN</string>
+    <string name="minh_thanh_tran">Minh Thanh Tran</string>
+    <string name="divya_soneji">Divya Soneji</string>
+    <string name="jocelyn_tandrea">Jocelyn Tandrea</string>
+    <string name="martin_tesar">Martin Tesar</string>
+    <string name="sources">Sources</string>
+    <string name="source1"><a href="https://www.flaticon.com/free-icon/family_4129957?related_id=4129957">https://www.flaticon.com/free-icon/family_4129957?related_id=4129957</a></string>
+    <string name="source2"><a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=9843%22%3EPixabay"><![CDATA[https://pixabay.com/music/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=9843%22%3EPixabay]]></a></string>
+    <string name="source3">
+    <a href="https://www.flaticon.com/free-icon/image_1500349?term=circle%20image&amp;related_id=1500349">https://www.flaticon.com/free-icon/image_1500349?term=circle%20image&amp;related_id=1500349</a></string>
+    <string name="source4">
+    <a href="https://www.pngrepo.com/svg/230284/nitrogen">https://www.pngrepo.com/svg/230284/nitrogen</a></string>
+    <string name="source_breathing_music">Breathing music: \'Just Relax\' by Lesfm, found at <a href="https://pixabay.com/music/search/mood/relaxing/">https://pixabay.com/music/search/mood/relaxing/</a></string>
+
+    <!-- Task strings -->
+    <string name="edit_child_txt">Edit child info</string>
+    <string name="enter_child_name_txt">Enter child name</string>
+    <string name="add_a_new_child_txt">Add a new child</string>
+    <string name="task_list_button_text">Task List</string>
+    <string name="enter_child_name">Enter child name</string>
+    <string name="add_a_new_child">Add a new child</string>
+    <string name="edit_child_name">Edit child name</string>
+    <string name="add_new_task">Add a New Task</string>
+    <string name="enter_task_name">Enter a Task Name</string>
+    <string name="edit_task_name">Edit Task</string>
+    <string name="task_list_title">Task List</string>
+    <string name="edit">EDIT</string>
+    <string name="no_child_yet">No Child Yet</string>
+    <string name="no_child_added_yet">"No Child Added Yet"</string>
+    <string name="blank">-</string>
+    <string name="confirm_message">Is %1$s done with %2$s?</string>
+    <string name="confirm_task_done">Confirm Task Done</string>
+    <string name="no_task_created_yet">No Task\nCreated Yet</string>
+    <string name="task_name_error_toast_message">Error! Enter a valid task name</string>
+    <string name="speed_text">Speed at %1$d\%%</string>
+    <string name="percentage">Percentage</string>
+    <string name="change_speed">Change Speed</string>
+
+    <!-- Task History strings -->
+    <string name="clear_task_history_message">Are you sure you want to clear the task history?</string>
+    <string name="empty_task_history_message">no task history created</string>
+    <string name="no_history_to_delete">No history to delete</string>
+    <string name="percent_symbol">%</string>
+
+    <!-- Take Breath strings -->
+    <string name="take_breath">Take a breath</string>
+    <string name="breathe_in">In</string>
+    <string name="breathe_out">Out</string>
+    <string name="good_job">Good Job!</string>
+    <string name="set_more_breaths">Set the number of breaths needed to continue</string>
+    <string name="release_breath_help">Release button and breathe out</string>
+    <string name="breaths_remaining">Breaths remaining: %1$d</string>
+    <string name="begin">Begin</string>
+    <string name="breathe_in_help">Hold the button to breathe in</string>
+    <string name="show_breath_number_settings">Set Breaths</string>
+    <string name="heading_take_breath">Let\'s take %1$d breaths together</string>
+
+</resources>

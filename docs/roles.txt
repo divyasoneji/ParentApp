@@ -1,0 +1,17 @@
+    Iteration 1
+Scrum Master - Martin (mta117)
+Product Owner - Jocelyn (jta189)
+Team Member - Minh Thanh (mtt6)
+Repo Manager - Divya (dns8)
+
+    Iteration 2
+Scrum Master - Minh Thanh (mtt6)
+Product Owner - Divya (dns8)
+Team Member - Martin (mta117)
+Repo Manager - Jocelyn (jta189)
+
+    Iteration 3
+Scrum Master - Divya (dns8)
+Product Owner - Minh Thanh (mtt6)
+Team Member - Jocelyn (jta189)
+Repo Manager - Martin (mta117)
