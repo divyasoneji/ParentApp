@@ -1,6 +1,6 @@
 <h1 align ="center">Parent App </h1>
 
-<h2 align="center">Parent App: Android app made using Java and XML</h2>
+<h2 align="center">Parent App: Android app designed using Java and XML</h2>
 
 <h4 align="center"> This app was created by me and a group of 3 other students from my Software Engineering course at SFU over the period of 4 weeks and was developed over the course of 3 iterations which incorporated adding features requested by client (our prof)</h4>
 
